@@ -9,7 +9,7 @@ components:
           location: https://deb.nodesource.com/node_6.x/pool/main/n/nodejs/nodejs_6.10.0-1nodesource1~trusty1_amd64.deb
     repository:
       git: git@github.com:geethaka/nodecrud.git
-      branch: master
+      branch: v2
     build:
       - shell: npm install 
       - shell: pwd
